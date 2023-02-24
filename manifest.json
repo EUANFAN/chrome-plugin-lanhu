@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "@dandelion/chrome-plugin-lanhu",
+  "description": "蓝湖【复制代码区域】动态转换主题变量",
+  "version": "1.0",
+  "icons": {
+    "128": "/images/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "run_at": "document_idle",
+      "js": ["/scripts/main.js"]
+    }
+  ]
+}
