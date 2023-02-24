@@ -206,7 +206,7 @@ window.onload = function () {
       return resetBtn;
     };
 
-    monitorParantNode = () => {
+    monitorParentNode = () => {
       const detailBox = document.querySelector(".detail_box");
       detailBox.addEventListener(
         "click",
@@ -235,7 +235,7 @@ window.onload = function () {
     };
 
     init = () => {
-      this.monitorParantNode();
+      this.monitorParentNode();
     };
   }
   const instance = ChromePluginLanhuapp.getInstance();
