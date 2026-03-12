@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.chrome-plugin-lanhu-container {
+    width: 400px;
+    height: 600px;
+}
+.chrome-plugin-lanhu-title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    color: #2878ff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #eeeff1;
+    background: #fff;
+}
+#chrome-plugin-lanhu-content {
+    margin-top: 37px;
+    width: 380px;
+    height: 580px;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    color: #2f2e3f;
+    background: #f7f9fc;
+}
